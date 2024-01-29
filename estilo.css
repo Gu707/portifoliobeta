@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(1, 0, 65);
+    color: #f1f1f1;
+}
+nav 
+{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+    text-decoration: double;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+
+    color: blue;
+    font-size: 20px;
+    /*para a animação funcionar*/
+    display: inline-block;
+    transition: transform 0.3s ease;
+
+}
+/* Estilizando um link quando o mouse passa por cima */
+a:hover {
+    color: #449bff; /* Cor do link ao passar o mouse */
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+    transform: scale(1.1); /* Aumentar o tamanho ao passar o mouse */
+  }
+header img {
+    border-radius: 40px;
+    border: 5px solid;
+    height: 300px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
+.titulostopo {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.titulostopo h1 {
+    font-size: 60px;
+}
+.titulostopo h2 {
+    font-size: 20px;
+}
+h4 {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+.simgtexto{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.simgtexto img {
+    
+    height: 200px;
+    width: 200px;
+    
+}
+.imgtexto 
+{
+    
+    width: 400px;
+    text-align: center;
+}
+.section-projetos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-projetos img {
+    border-radius: 40px;
+    border: 5px solid;
+    height: 200px;
+}
+.projetos {
+    text-align: center;
+    
+
+}
+
+/* Estilizando a barra de rolagem para navegadores baseados em Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(red, green, rgb(51, 51, 228), 0.5); /* Cor do botão de rolagem */
+  border-radius: 6px; /* Raio das bordas do botão de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cor da área de rastreamento da rolagem */
+}
+
+/* Estilizando a barra de rolagem para navegadores baseados em Firefox */
+/* Nota: Algumas versões mais recentes do Firefox suportam as propriedades padrão, e você pode estilizá-las diretamente sem o uso do -moz- */
+html {
+  scrollbar-width: thin; /* Largura da barra de rolagem no Firefox */
+  scrollbar-color: #1900ff #f1f1f1; /* Cor da barra de rolagem e da área de rastreamento no Firefox */
+}
+
+/* Adicionando estilos adicionais ao passar o mouse sobre a barra de rolagem (somente no Webkit) */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1442a3; /* Cor do botão de rolagem ao passar o mouse sobre ele */
+}
+.ver-mais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    background-color: rgba(53, 53, 53, 0.5);
+}
